@@ -1,0 +1,9 @@
+RelativeLayout:
+    layout_width: match_parent
+    layout_height: match_parent
+    context: MainActivity
+
+    PaintView:
+        id: paintView
+        layout_width: match_parent
+        layout_height: match_parent
