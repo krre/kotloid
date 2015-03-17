@@ -1,8 +1,11 @@
 package kotloid.compiler
 
+import java.io.File
+
 public class AmlObject(amlFile: String) {
     {
-        println(amlFile)
+        val text = File(amlFile).readText()
+        println(text)
     }
 }
 
