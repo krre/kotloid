@@ -12,4 +12,5 @@ fun main(args: Array<String>) {
     val lexer = Lexer(amlPath)
     val parser = Parser(lexer)
     val ast = parser.parse()
+
 }

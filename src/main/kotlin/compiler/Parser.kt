@@ -1,6 +1,6 @@
 package kotloid.compiler
 
-class Parser(lexer: Lexer) {
+public class Parser(lexer: Lexer) {
 
     fun parse() {
 
