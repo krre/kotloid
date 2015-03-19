@@ -1,0 +1,5 @@
+import android.app.Application
+import android.content.Context
+
+Application
+    property readonly Context context: { getApplicationContext() }

@@ -1,0 +1,10 @@
+Activity
+    property readonly value: 12
+    property title: "Main Activity"
+    property private isOk: false
+    property alias sign: label.text
+    id: mainActivity
+
+    fun init() {
+
+    }
