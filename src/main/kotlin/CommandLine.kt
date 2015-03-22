@@ -1,4 +1,4 @@
-package kotloid
+package org.kotloid
 
 import java.io.File
 
