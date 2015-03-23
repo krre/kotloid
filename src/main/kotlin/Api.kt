@@ -13,7 +13,7 @@ fun compileFile(inputPath: String, outputPath: String) {
 
 fun compileDirectory(inputPath: String, outputPath: String) {
     deleteDirectory(File(outputPath))
-    for (file in File(inputPath).listFiles()) {
+    for (file in File(inputPath + File.separator + "kdml").listFiles()) {
         val ktFilePath = outputPath + File.separator + file.name.replace("kdml", "kt")
         compileFile(file.path, ktFilePath)
     }
